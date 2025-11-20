@@ -32,4 +32,5 @@ export const createMercadoPagoPreferenceBackend = async ({ product, amount, curr
         console.error("❌ Mercado Pago Service Error:", error);
         throw new Error(error.message || "Failed to create Mercado Pago preference");
     }
-}
+};
+

@@ -1,6 +1,6 @@
 import express from 'express';
 import { createPaymentIntent } from '../controllers/paymentController.js';
-import { createMercadoPagoSession } from '../controllers/mercadoPagoController.js';
+import { createMercadoPagoSession} from '../controllers/mercadoPagoController.js';
 
 const router = express.Router();
 
